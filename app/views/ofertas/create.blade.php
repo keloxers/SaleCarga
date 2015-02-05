@@ -36,7 +36,7 @@
 
 										<div class="col-md-4">
 											<label>Tipos Carga</label>
-											{{ Form::select( 'tiposcargas_id', TiposCarga::All()->
+											{{ Form::select( 'tiposcargas_id', Tiposcarga::All()->
 											lists('tiposcarga', 'id'), Input::get('tiposcarga'), array( "placeholder" => "", 'class' => 'form-control input-lg')) }}
 										</div>
 
