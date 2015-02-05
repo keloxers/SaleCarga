@@ -10,7 +10,7 @@
 		$provincia_origen = Provincia::find($origen->provincias_id);
 		$provincia_destino = Provincia::find($destino->provincias_id);
 
-		$tiposcarga = TiposCarga::find($oferta->tiposcargas_id)->tiposcarga;
+		$tiposcarga = Tiposcarga::find($oferta->tiposcargas_id)->tiposcarga;
 
 ?>
 
@@ -87,7 +87,7 @@
 										$provincia_origen = Provincia::find($origen->provincias_id);
 										$provincia_destino = Provincia::find($destino->provincias_id);
 
-										$tiposcarga = TiposCarga::find($ofertasrelacionada->tiposcargas_id)->tiposcarga;
+										$tiposcarga = Tiposcarga::find($ofertasrelacionada->tiposcargas_id)->tiposcarga;
 
 									?>
 
